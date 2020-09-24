@@ -17,9 +17,9 @@ Config.EnableJobBlip              = false -- Enable blips for cops on duty, requ
 Config.EnableCustomPeds           = false -- Enable custom peds in cloak room? See Config.CustomPeds below to customize peds.
 
 Config.EnableESXService           = false -- Enable esx service?
-Config.MaxInService               = -1 -- How much people can be in service at once?
+Config.MaxInService               = 10 -- How much people can be in service at once?
 
-Config.Locale                     = 'en'
+Config.Locale                     = 'fr'
 
 Config.PoliceStations = {
 
@@ -130,17 +130,17 @@ Config.AuthorizedVehicles = {
 		recruit = {},
 
 		officer = {
-			{model = 'police3', price = 20000}
+			{model = 'police3'}
 		},
 
 		sergeant = {
-			{model = 'policet', price = 18500},
-			{model = 'policeb', price = 30500}
+			{model = 'policet'},
+			{model = 'policeb'}
 		},
 
 		lieutenant = {
-			{model = 'riot', price = 70000},
-			{model = 'fbi2', price = 60000}
+			{model = 'riot'},
+			{model = 'fbi2'}
 		},
 
 		boss = {}
